@@ -11,11 +11,20 @@ html {
 h1, h2 {
     font-family: 'Chivo', sans-serif;
     font-weight: 900;
-    color: #001a7a;
+    color: white;
   }
+
+p {
+    font-family: 'Chivo', sans-serif;
+    font-weight: 400;
+}
 
 body {
     margin: 1rem;
+    background: url(../img/jeans.jpeg), linear-gradient(to top, #001a7a 0%,#164596 25%,#2db1f7 100%);
+    background-repeat: repeat;
+    background-blend-mode: soft-light;
+    color: white;
   }
 
 img {
@@ -29,7 +38,7 @@ header {
     padding: 20vh 1rem;
     margin: -1rem -1rem 1rem;
     background: url(../img/NewJeans-Supershy.jpeg) center / cover no-repeat;
-    background-color: blue;
+    border-bottom: 12px dashed white;
   }
 
 header h1 {
@@ -46,4 +55,7 @@ main {
     hyphens: auto;
   }
 
-
+  section {
+    padding: 4rem 0;
+    border-bottom: 1px dashed lightgray;
+  }
