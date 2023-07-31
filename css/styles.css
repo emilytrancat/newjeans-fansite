@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+  }
+
+/* Main Styles */
+header {
+    padding: 10vh 1rem;
+    margin: -1rem -1rem 1rem;
+    background: url(../img/NewJeans-Supershy.jpeg) center / cover no-repeat #f3753b;
+    background-color: blue;
+    color: white
+  }
