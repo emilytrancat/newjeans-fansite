@@ -21,7 +21,7 @@ p {
 
 body {
     margin: 1rem;
-    background: url(../img/jeans.jpeg), linear-gradient(to top, #001a7a 0%,#164596 25%,#2db1f7 100%);
+    background: url(../img/jeans.jpeg), linear-gradient(-90deg, #001a7a 0%,#2db1f7 -50%,#1060c1 -60%, #001a7a 100%);
     background-repeat: repeat;
     background-blend-mode: soft-light;
     color: white;
@@ -38,7 +38,7 @@ header {
     padding: 20vh 1rem;
     margin: -1rem -1rem 1rem;
     background: url(../img/NewJeans-Supershy.jpeg) center / cover no-repeat;
-    border-bottom: 12px dashed white;
+    border: 12px solid white;
   }
 
 header h1 {
@@ -55,7 +55,15 @@ main {
     hyphens: auto;
   }
 
-  section {
+section {
     padding: 4rem 0;
     border-bottom: 1px dashed lightgray;
   }
+
+.profile-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 2fr 2fr;
+
+
+}
