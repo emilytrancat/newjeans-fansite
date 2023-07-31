@@ -6,15 +6,30 @@
 
 html {
     font-size: 20px; /* 1.25em on most screens */
-  }s
+  }
+
+h1, h2 {
+    font-family: 'Chivo', sans-serif;
+    font-weight: 900;
+    color: #001a7a;
+  }
+
+body {
+    margin: 1rem;
+  }
+
+img {
+    width: 100%; /* responsive images */
+    border-radius: 10px;
+  }
 
 /* Main Styles */
+
 header {
-    padding: 10vh 1rem;
+    padding: 20vh 1rem;
     margin: -1rem -1rem 1rem;
     background: url(../img/NewJeans-Supershy.jpeg) center / cover no-repeat;
     background-color: blue;
-    color: white
   }
 
 header h1 {
@@ -22,6 +37,13 @@ header h1 {
     font-size: 4rem;
     text-align: center;
     text-shadow: 1px 2px 3px rgba(0, 10, 30, .5);
+    color: white;
 }
+
+main {
+    max-width: 1000px;
+    margin: 0 3rem auto;
+    hyphens: auto;
+  }
 
 
