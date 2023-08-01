@@ -10,9 +10,22 @@ html {
 
 h1, h2 {
     font-family: 'Chivo', sans-serif;
+    font-size: 2rem;
     font-weight: 900;
-    color: white;
+    color: #1a1052;
+}
+
+span {
+    font-family: 'Gochi Hand', cursive;
+    color: #1a1052;
   }
+
+.decoration {
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: -3rem;
+}
 
 p {
     font-family: 'Chivo', sans-serif;
@@ -21,29 +34,30 @@ p {
 
 body {
     margin: 1rem;
-    background: url(../img/jeans.jpeg), linear-gradient(-90deg, #001a7a 0%,#2db1f7 -50%,#1060c1 -60%, #001a7a 100%);
+    /* background: url(../img/jeans.jpeg), linear-gradient(-90deg, #001a7a 0%,#2db1f7 -50%,#1060c1 -60%, #001a7a 100%);
     background-repeat: repeat;
+    background-blend-mode: soft-light; */
+    background: url(../img/noise.png), linear-gradient(to top, lightgray -90%, #e7e5f2 -60%, white 100%);
     background-blend-mode: soft-light;
-    color: white;
   }
 
 img {
     width: 100%; /* responsive images */
     border-radius: 10px;
+    border: 2px solid #1a1052;
   }
 
 /* Main Styles */
 
 header {
-    padding: 20vh 1rem;
+    padding: 100px;
     margin: -1rem -1rem 1rem;
     background: url(../img/NewJeans-Supershy.jpeg) center / cover no-repeat;
-    border: 12px solid white;
   }
 
 header h1 {
-    font-family: 'Gochi Hand', cursive;
-    font-size: 4rem;
+    font-family: 'Beth Ellen', cursive;
+    font-size: 8rem;
     text-align: center;
     text-shadow: 1px 2px 3px rgba(0, 10, 30, .5);
     color: white;
@@ -57,13 +71,16 @@ main {
 
 section {
     padding: 4rem 0;
-    border-bottom: 1px dashed lightgray;
+    border-bottom: 1px dashed #1a1052;
   }
 
 .profile-grid {
     display: grid;
-    gap: 2rem;
-    grid-template-columns: 2fr 2fr;
+    grid-column-gap: 2rem;
+    grid-row-gap: 2.5rem;
+    grid-template-columns: repeat(2, 10rem);
+}
 
-
+.intro {
+    margin-top: 5rem;
 }
